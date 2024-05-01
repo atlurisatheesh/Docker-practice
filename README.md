@@ -9,7 +9,8 @@ Ok, let me make it easy !!!
 
 A container is a bundle of Application, Application libraries required to run your application and the minimum system dependencies.
 
-Screenshot 2023-02-07 at 7 18 10 PM
+![image](https://github.com/atlurisatheesh/Docker-practice/assets/115976931/c85eb916-4fb5-449e-b09e-f50b7488f0a1)
+
 
 Containers vs Virtual Machine
 Containers and virtual machines are both technologies used to isolate applications and their dependencies, but they have some key differences:
@@ -27,7 +28,8 @@ Let's try to understand this with an example:
 
 Below is the screenshot of official ubuntu base image which you can use for your container. It's just ~ 22 MB, isn't it very small ? on a contrary if you look at official ubuntu VM image it will be close to ~ 2.3 GB. So the container base image is almost 100 times less than VM image.
 
-Screenshot 2023-02-08 at 3 12 38 PM
+![image](https://github.com/atlurisatheesh/Docker-practice/assets/115976931/0a4a99c2-752e-467e-9553-6bbe4c7c48f6)
+
 
 To provide a better picture of files and folders that containers base images have and files and folders that containers use from host operating system (not 100 percent accurate -> varies from base image to base image). Refer below.
 
@@ -71,7 +73,8 @@ Docker is a containerization platform that provides easy way to containerize you
 In simple words, you can understand as containerization is a concept or technology and Docker Implements Containerization.
 
 Docker Architecture ?
-image
+![image](https://github.com/atlurisatheesh/Docker-practice/assets/115976931/de0d52cc-6a5d-4c79-88a9-2f3768b45eb0)
+
 
 The above picture, clearly indicates that Docker Deamon is brain of Docker. If Docker Deamon is killed, stops working for some reasons, Docker is brain dead :p (sarcasm intended).
 
@@ -83,7 +86,8 @@ There are three important things,
 docker build -> builds docker images from Dockerfile
 docker run -> runs container from docker images
 docker push -> push the container image to public/private regestries to share the docker images.
-Screenshot 2023-02-08 at 4 32 13 PM
+![image](https://github.com/atlurisatheesh/Docker-practice/assets/115976931/6ae55059-bc36-4825-8fb9-1ee94b245b30)
+
 
 Understanding the terminology (Inspired from Docker Docs)
 Docker daemon
